@@ -1,0 +1,38 @@
+{
+  "name": "puppeter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn --transpileOnly -r dotenv/config ./src/server.ts",
+    "build": "tsc -b",
+    "clean": "rm -rf ./build/*",
+    "start": "node ./build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nanoid": "^2.1.0",
+    "@types/node": "^13.7.0",
+    "@types/pino": "^5.15.4",
+    "@types/puppeteer": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "pino-pretty": "^3.5.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.610.0",
+    "fastify": "^2.11.0",
+    "fastify-cors": "^3.0.1",
+    "fastify-helmet": "^3.0.2",
+    "fastify-multipart": "^1.0.4",
+    "fastify-oas": "^2.5.0",
+    "fastify-plugin": "^1.6.0",
+    "nanoid": "^2.1.11",
+    "pino": "^5.16.0",
+    "puppeteer": "^2.1.0",
+    "puppeteer-cluster": "^0.18.0"
+  }
+}
