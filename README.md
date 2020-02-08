@@ -1,9 +1,9 @@
-# puppeteer-cluster-converter-api
-WIP: Pupppeteer cluster for converting HTML to PDF
+# puppeteer-cluster-converter-API
+WIP: Puppeteer cluster for converting HTML to PDF
 
 
 TODO:
 
-- [x] Converter HTML using multiform-data
-- [ ] Converter HTML using a link
-- [ ] Create a asynchronous router for background processing
+- [x] Implement HTML convertion using multiform-data
+- [ ] Implement HTML convertion using a link
+- [ ] Create a asynchronous router for background processing using SQS client/consumer 
