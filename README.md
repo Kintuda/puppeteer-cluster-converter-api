@@ -2,5 +2,8 @@
 WIP: Pupppeteer cluster for converting HTML to PDF
 
 
-Future releases
+TODO:
 
+- [x] Converter HTML using multiform-data
+- [ ] Converter HTML using a link
+- [ ] Create a asynchronous router for background processing
